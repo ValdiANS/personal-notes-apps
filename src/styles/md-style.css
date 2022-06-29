@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) {
+  /* Main */
+  main {
+    flex-direction: row;
+  }
+
+  /* Add Note Section */
+  .add-note {
+    max-width: 300px;
+  }
+
+  .add-note__form {
+    width: 300px;
+  }
+
+  /* Search Bar */
+  .search-bar {
+    flex-direction: column;
+  }
+
+  .search-bar__form {
+    max-width: initial;
+  }
+
+  .search-bar__span {
+    text-align: center;
+  }
+}

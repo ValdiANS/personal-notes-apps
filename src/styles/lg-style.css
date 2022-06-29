@@ -1,0 +1,20 @@
+@media only screen and (min-width: 992px) {
+  /* Search Bar */
+  .search-bar {
+    flex-direction: row;
+  }
+
+  .search-bar__form {
+    max-width: 350px;
+  }
+
+  .search-bar__span {
+    text-align: initial;
+  }
+
+  /* Notes */
+  .active-note-list,
+  .archived-note-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
